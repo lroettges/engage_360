@@ -12,7 +12,7 @@
     // animate
     $('html, body').animate({
         scrollTop: $(hash).offset().top
-      }, 950, function(){
+      }, 1300, function(){
 
         // when done, add hash to url
         // (default click behaviour)
@@ -33,7 +33,7 @@
     // animate
     $('html, body').animate({
         scrollTop: $(hash).offset().top
-      }, 950, function(){
+      }, 130, function(){
 
         // when done, add hash to url
         // (default click behaviour)

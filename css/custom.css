@@ -10,7 +10,9 @@ div.row.hist {
 	margin: 0;
 	padding: 0;
 }
-.homepg {
+.homepg div.row{
+	text-align: center;
+	margin-top: 10%;
 }
 /*ul.testing li {position:absolute;}*/
 /*
