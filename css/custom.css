@@ -14,6 +14,26 @@ div.row.hist {
 	text-align: center;
 	margin-top: 10%;
 }
+.transitionbutton {
+		text-align: center;
+}
+i {
+	/*float: right;*/
+}
 /*ul.testing li {position:absolute;}*/
 /*
 div.testing {margin-top:140px; float:left;}*/
+
+@media only screen and (max-width: 992px) {
+	i.disappear {
+		visibility: hidden;
+
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	i.appear {
+		visibility: hidden;
+
+	}
+}
