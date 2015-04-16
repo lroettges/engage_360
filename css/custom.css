@@ -6,6 +6,12 @@ body{
 	min-height: 900px;
 	padding-top: 50px;
 }
-
+div.row.hist {
+	margin: 0;
+	padding: 0;
+}
 .homepg {
 }
+/*ul.testing li {position:absolute;}*/
+/*
+div.testing {margin-top:140px; float:left;}*/
