@@ -263,15 +263,22 @@
 <!-- begin our Activities -->
 <div id="ourActivities" class="temp">
    <h1>What are some of our other projects?</h1>
-   <ul class="testing" id="vennD">
+   <div class="col-sm-6">
+    <div id="boxtop"><img class="img-responsive" src="http://www.placehold.it/800x400"></img></div>
+    <button type="button" onclick="boxTops()" class="btn btn-default">Box Top Project</button>
+   </div>
+   <div class="col-sm-6">
+    <ul class="testing" id="trashCan">
     
-     <li><img src="http://www.placehold.it/500x500/D00" /></li>
-    <li><img src="http://www.placehold.it/500x500/0D0" /></li>
-    <li><img src="http://www.placehold.it/500x500/00D" /></li>
-    <li><img src="http://www.placehold.it/500x500/0DD" /></li>
-    <li><img src="http://www.placehold.it/500x500/DD0" /></li>
+     <li><img class="img-responsive" src="http://www.placehold.it/500x500/D00" /></li>
+    <li><img class="img-responsive" src="http://www.placehold.it/500x500/0D0" /></li>
+    <li><img class="img-responsive" src="http://www.placehold.it/500x500/00D" /></li>
+    <li><img class="img-responsive" src="http://www.placehold.it/500x500/0DD" /></li>
+    <li><img class="img-responsive" src="http://www.placehold.it/500x500/DD0" /></li>
     
 </ul>
+<button type="button" onclick="throwTrash()" class="btn btn-default">WILD Clean Up</button>
+</div>
 
 <!-- <div class="testing">
     <a href="#" class="targ" style="color: #D00">link</a>
@@ -314,7 +321,30 @@ Fill out my <a href="https://lroettges.wufoo.com/forms/q1raiuj517wqqd7">online f
     <div class="col-sm-6 col-md-3"><img class="img-responsive" src="images/crclplaceholder.png"></div>
     <div class="col-sm-6 col-md-3"><img class="img-responsive" src="images/crclplaceholder.png"></div>
     <div class="col-sm-6 col-md-3"><img class="img-responsive" src="images/crclplaceholder.png"></div>
-    <div class="col-sm-6 col-md-3"><img class="img-responsive" src="images/crclplaceholder.png"></div>
+    <div class="col-sm-6 col-md-3">
+      <!-- Want to Join the Team? -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#join_our_team">
+  <img class="img-responsive" src="images/crclplaceholder.png">
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="join_our_team" tabindex="-1" role="dialog" aria-labelledby="join_us" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="join_our_team">Join Our Team</h4>
+      </div>
+      <div class="modal-body">
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+      <!-- end join our team modal -->
+    </div>
   </div>
    <div class="row"></div>
    <div class="transitionbutton"><a href="#homepage">back to top</a></div>
