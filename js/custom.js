@@ -44,8 +44,12 @@
 
 // change my homepage
 function whoIsEngage(a, b) {
-    document.getElementById("our_description").innerHTML = "a long winded description";
-    document.getElementById("our_title").innerHTML = "";
+    document.getElementById("our_description").innerHTML = 
+    "Engage 360 is Student Union’s commitment to connecting WashU students to St. Louis by developing service opportunities through partnerships with community leaders and organizations. We organize service trips, engage in community projects, and support local organizations. Thanks for checking out our website, have fun exploring and learning more about us! Also feel free to check us out on Facebook or Portfolio.";
+    $('#our_title').hide();
+    $('#weAre').hide();
+     $('.fpgLink').hide();
+    
 }
 //end my homepage 
 

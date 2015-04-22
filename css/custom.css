@@ -1,6 +1,7 @@
 /*custom*/
 body{
 	position: relative;
+	background-color: #ccffff;
 }
 .temp {
 	min-height: 900px;
@@ -10,13 +11,20 @@ div.row.hist {
 	margin: 0;
 	padding: 0;
 }
-.homepg div.row{
+.homepg {
 	text-align: center;
-	margin-top: 10%;
+	/*margin-top: 10%;*/
 }
+#our_title {
+	margin-top: 15%;
+}
+
 .transitionbutton {
 		text-align: center;
 }
+/*a.fpgLink {
+	float: left;
+}*/
 i {
 	/*float: right;*/
 }
@@ -29,6 +37,7 @@ div.testing {margin-top:140px; float:left;}*/
 		visibility: hidden;
 
 	}
+
 }
 
 @media only screen and (min-width: 992px) {
@@ -36,4 +45,34 @@ div.testing {margin-top:140px; float:left;}*/
 		visibility: hidden;
 
 	}
+	#homepage {
+	background-image: url("../images/homepgbg.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
+
+	.my_desc {
+	margin: 0% 36%;
+	padding-top: 7%;
+	position: absolute;
+}
+/*a.fpgLink{
+	position: absolute;
+	top:10%;
+}*/
+}
+
+@media only screen and (min-width: 1200px) {
+	.my_desc {
+	padding-top: 15%;
+	position: absolute;
+}
+
+
+	}
+
+
+
+
+
+
