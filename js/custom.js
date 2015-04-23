@@ -86,14 +86,14 @@ $('.targ').hover(function () {
 
 // change trashCan to text
 function throwTrash(a, b) {
-    document.getElementById("trashCan").innerHTML = " Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?";
+    document.getElementById("trashCan").innerHTML = "WILD is a large scale concert put on by SPB. In order to make sure we remain respectful to our WashU neighbors we organize a group of students who are willing to get up early despite a late night of partying at WILD and clean up trash in the neerby neighborhoods that students may have left behind. We feel that it is important to show respect to our neighbors, and that our efforts are necessary in order to improve the reputation of WILD and our WashU students.";
 
 }
 //end trashCan to text
 
 // change my homepage
 function boxTops(a, b) {
-    document.getElementById("boxtop").innerHTML = "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?";
+    document.getElementById("boxtop").innerHTML = "We collect and donate box tops on a rolling basis. If you have extra box tops, please deliver them to the VP of Programming's desk on the bottom floor of the SU office.";
 }
 //end my homepage 
 
