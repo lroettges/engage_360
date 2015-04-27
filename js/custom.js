@@ -53,6 +53,29 @@ function whoIsEngage(a, b) {
 }
 //end my homepage 
 
+
+
+// var scrollHeight;
+
+// $(window).ready(function() {
+//     scrollHeight = $('#footer').offset().top - $('#left').height() - $('#left').offset().top;
+// });
+
+// $(window).scroll(function() {
+//     if ($(document).scrollTop() >= scrollHeight) {
+//         $('#left').css({
+//             'position': 'relative',
+//             'margin-top': '350px'
+//         });
+//     } else {
+//         $('#left').css({
+//             'position': 'fixed',
+//             'margin-top': '100px'
+//         });
+//     }
+// });
+
+
 //alternating images
    // Initialization
 $('#trashCan li:first').addClass('show');

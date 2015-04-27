@@ -1,16 +1,79 @@
 /*custom*/
 body{
-	position: relative;
-	background-color: #ccffff;
+	/*position: relative;*/
+/*	background-color: #ccffff;*/
+
+}
+.btn-default {
+  color: white; 
+  background-color: transparent;
+  border-color: white;
+}
+.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
+  color: white;
+  font-size: 130%;
+  background-color: rgba(0,0,0,0);
+  border-color: white;
+  border-style: dashed;
+}
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus {
+  color: #68ffff;
+  background-color: #00cc66;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+
+ background-color: #68ffff;
+}
+.navbar-nav>li>.dropdown-menu {
+  
+  background-color: rgba(0,153,153,.4);
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+  background-color: rgba(104,255,255,.7);
+  color: #0c6;
 }
 .temp {
 	min-height: 900px;
 	padding-top: 50px;
 }
+div.mywrap {
+/* background-image: url("../images/backg.jpg");*/
+	
+}
+h1 {
+	color: white;
+	text-align: center;
+}
 div.row.hist {
 	margin: 0;
 	padding: 0;
 }
+.btn-primary {
+
+  background-color: transparent;
+  border-color: transparent;
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+  background-color: #68ffff;
+  border-color: #68ffff;
+}
+.btn-primary:focus, .btn-primary.focus {
+	background-color: transparent;
+  border-color: transparent;
+}
+
+/*div.secondbg {
+	background-image: url("../images/friendship_2.jpg");
+	background-size: 100%;
+	background-repeat: repeat-x;
+	min-height: 900px;
+	position: absolute;
+	botton: 100px;
+	left: 0px;
+	min-width: 100%;
+	z-index: -2;
+}*/
 .homepg {
 	text-align: center;
 	/*margin-top: 10%;*/
@@ -22,6 +85,45 @@ div.row.hist {
 .transitionbutton {
 		text-align: center;
 }
+.homepg {
+	background-image: url("../images/wall_1.jpg");
+	background-repeat: repeat-x;
+
+	}
+
+.homepg div.moveforward {
+	color: white;
+	z-index: 100;
+	opacity: 1;
+}
+
+h1.our_title {
+}
+#homepage{
+	min-height: 1000px;
+}
+#ourHistory {
+	background-color: rgba(0,204,102,1);
+}
+#ourTrips {
+	background-color: rgba(104,255,255,1);
+	min-height: 600px;
+	margin-bottom: 300px;
+}
+#ourActivities{
+	background-color: rgba(0,204,102,1);
+}
+#getInvolved {
+	background-color: rgba(104,255,255,1);
+}
+
+/*div.moveforward {
+	margin: 0% 13%;
+	background-color: rgba(0,204,102,.7);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}*/
+
 /*a.fpgLink {
 	float: left;
 }*/
@@ -31,7 +133,33 @@ i {
 /*ul.testing li {position:absolute;}*/
 /*
 div.testing {margin-top:140px; float:left;}*/
+@media only screen and (max-width: 768px) {
+.my_desc {
+	margin: 5% 10% 0%;
+	position: absolute;
+	/*background-color: rgba(0,204,102,.7);*/
+}
+	}
 
+@media only screen and (min-width: 768px) {
+	.my_desc {
+	margin: 5% 30% 0%;
+	/*padding-top: 7%;*/
+	position: absolute;
+	/*background-color: rgba(0,204,102,.7);*/
+}
+div.transColor {
+	background-image: url("../images/volunteers.jpg");
+	background-size: 100%;
+	background-repeat: repeat-x;
+	min-height: 100%;
+	position: fixed;
+	top: 5%;
+	left: 0px;
+	min-width: 100%;
+	z-index: -3;
+}
+}
 @media only screen and (max-width: 992px) {
 	i.disappear {
 		visibility: hidden;
@@ -45,17 +173,19 @@ div.testing {margin-top:140px; float:left;}*/
 		visibility: hidden;
 
 	}
-	#homepage {
+	.my_desc {
+	margin: 7% 36% 0%;
+	/*padding-top: 7%;*/
+	position: absolute;
+	/*background-color: rgba(0,204,102,.7);*/
+}
+	/*#homepage {
 	background-image: url("../images/homepgbg.png");
 	background-size: 100%;
 	background-repeat: no-repeat;
-}
+}*/
 
-	.my_desc {
-	margin: 0% 36%;
-	padding-top: 7%;
-	position: absolute;
-}
+	
 /*a.fpgLink{
 	position: absolute;
 	top:10%;
@@ -63,10 +193,6 @@ div.testing {margin-top:140px; float:left;}*/
 }
 
 @media only screen and (min-width: 1200px) {
-	.my_desc {
-	padding-top: 15%;
-	position: absolute;
-}
 
 
 	}
