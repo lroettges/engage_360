@@ -1,8 +1,12 @@
 /*custom*/
 body{
 	/*position: relative;*/
-/*	background-color: #ccffff;*/
+	background-color: #68ffff;
 
+}
+#bs-example-navbar-collapse-1  ul li a.fpgLink{
+	padding: 0px;
+	padding-right: 7px;
 }
 .btn-default {
   color: white; 
@@ -27,11 +31,14 @@ body{
 }
 .navbar-nav>li>.dropdown-menu {
   
-  background-color: rgba(0,153,153,.4);
+  background-color: rgba(0,153,153,.6);
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
-  background-color: rgba(104,255,255,.7);
+  background-color: rgba(104,255,255,.8);
   color: #0c6;
+}
+.navbar-toggle {
+  background-color: #68ffff;
 }
 .temp {
 	min-height: 900px;
@@ -212,15 +219,38 @@ div.myform{
 
 @media only screen and (max-width: 768px) {
 .my_desc {
-	margin: 5% 10% 0%;
+	margin: 15% 10% 0%;
 	position: absolute;
 	/*background-color: rgba(0,204,102,.7);*/
+}
+#bs-example-navbar-collapse-1 > ul> li > a > img {
+	display: none;
+}
+#ourHistory {
+	max-height: 500px;
+	min-height: 0px;
+	margin-bottom: 0;
 }
 	}
 
 @media only screen and (min-width: 768px) {
+	footer.site-footer {
+	position: relative;
+	width:100%;
+	margin-top: 15%;
+	background-image: url("../images/footer_img.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	z-index: -3;
+	padding-top: 500px;
+
+}
+
+#getInvolved h1, #getInvolved h2, #getInvolved h3 {
+	color: white;
+}
 	.my_desc {
-	margin: 5% 30% 0%;
+	margin: 10% 30% 0%;
 	/*padding-top: 7%;*/
 	position: absolute;
 	/*background-color: rgba(0,204,102,.7);*/
@@ -231,7 +261,7 @@ div.transColor {
 	background-repeat: repeat-x;
 	min-height: 100%;
 	position: fixed;
-	top: 5%;
+	top: 50px;
 	left: 0px;
 	min-width: 100%;
 	z-index: -3;
@@ -250,6 +280,19 @@ div.transColor {
 }
 
 @media only screen and (min-width: 992px) {
+	footer.site-footer {
+	position: relative;
+	width:100%;
+	margin-top: 15%;
+	background-image: url("../images/footer_img.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	z-index: -3;
+	padding-top: 700px;
+
+}
+
+
 	i.appear {
 		visibility: hidden;
 	}
@@ -313,14 +356,12 @@ div.myform  {
 
 	padding-bottom: 100px;
 }
-footer.site-footer {
-	position: relative;
-	width:100%;
-	margin-top: 15%;
-padding: 100px, 0px;
-min-height: 300px;
-	background-color: rgba(104,255,255,1);
-
+.modal-body {
+max-width: 700px;
+width: 70%;
+margin-left: auto;
+margin-right: auto;
+text-align: left;
 }
 
 
@@ -406,7 +447,10 @@ input[type=checkbox] {
     width: 100%;
     text-align: center;
     padding: .65rem;
-    box-shadow: inset 1px 1px rgba(0, 0, 0, 0.1), inset -1px -1px rgba(0, 0, 0, 0.1);
+    
+    color: #fff;
+     border-style: dashed;
+    border-color: #fff;
 }
 [for="read_more_boxTops"] {
     position: absolute;
@@ -415,16 +459,20 @@ input[type=checkbox] {
     width: 100%;
     text-align: center;
     padding: .65rem;
-    box-shadow: inset 1px 1px rgba(0, 0, 0, 0.1), inset -1px -1px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    border-style: dashed;
+    border-color: #fff;
 }
 
 [for="read_more_WILD"]:hover {
-    background: rgba(0,0,0,.5);
-    color: rgb(255,255,255);
+    /*background: rgba(0,0,0,.5);*/
+    color: #68ffff;
+    font-size: 120%;
 }
 [for="read_more_boxTops"]:hover {
-    background: rgba(0,0,0,.5);
-    color: rgb(255,255,255);
+    /*background: rgba(0,0,0,.5);*/
+    color: #68ffff;
+    font-size: 120%;
 }
 
 [for="read_more_WILD"] span:last-of-type {
@@ -461,9 +509,13 @@ input[type=checkbox]:checked ~ [for="read_more_boxTops"] span:last-of-type {
     visibility: visible;
 }
 
+div.transitionbutton.backhome a {
+	color:white;
+}
 
-
-
+section p {
+	color: #fff;
+}
 
 
 
