@@ -108,16 +108,16 @@ $('.targ').hover(function () {
 //end alternating images
 
 // change trashCan to text
-function throwTrash(a, b) {
-    document.getElementById("trashCan").innerHTML = "WILD is a large scale concert put on by SPB. In order to make sure we remain respectful to our WashU neighbors we organize a group of students who are willing to get up early despite a late night of partying at WILD and clean up trash in the neerby neighborhoods that students may have left behind. We feel that it is important to show respect to our neighbors, and that our efforts are necessary in order to improve the reputation of WILD and our WashU students.";
+// function throwTrash(a, b) {
+//     document.getElementById("cleanUp").innerHTML = "WILD is a large scale concert put on by SPB. In order to make sure we remain respectful to our WashU neighbors we organize a group of students who are willing to get up early despite a late night of partying at WILD and clean up trash in the neerby neighborhoods that students may have left behind. We feel that it is important to show respect to our neighbors, and that our efforts are necessary in order to improve the reputation of WILD and our WashU students.";
 
-}
+// }
 //end trashCan to text
 
 // change my homepage
-function boxTops(a, b) {
-    document.getElementById("boxtop").innerHTML = "We collect and donate box tops on a rolling basis. If you have extra box tops, please deliver them to the VP of Programming's desk on the bottom floor of the SU office.";
-}
+// function boxTops(a, b) {
+//     document.getElementById("boxtop").innerHTML = "We collect and donate box tops on a rolling basis. If you have extra box tops, please deliver them to the VP of Programming's desk on the bottom floor of the SU office.";
+// }
 //end my homepage 
 
 

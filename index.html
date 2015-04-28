@@ -21,25 +21,9 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-<script>
-jQuery(function($) {
-  function fixDiv() {
-    var $cache = $('#practice');
-    if ($(window).scrollTop() > 900)
-      $cache.css({
-        'position': 'fixed',
-        'top': '900px'
-      });
-    else
-      $cache.css({
-        'position': 'relative',
-        'top': 'auto'
-      });
-  }
-  $(window).scroll(fixDiv);
-  fixDiv();
-});
-</script>
+
+
+
   </head>
 
 
@@ -187,7 +171,7 @@ jQuery(function($) {
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="images/wall_1.jpg" alt="mural">
+      <img src="images/wall_1_norm.jpg" alt="mural">
     </div>
     <div class="item">
       <img src="images/wall_02.jpg" alt="mural">
@@ -207,13 +191,13 @@ jQuery(function($) {
   </div>
 
   <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-mural" role="button" data-slide="prev">
+  <!-- <a class="left carousel-control" href="#carousel-mural" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
   <a class="right carousel-control" href="#carousel-mural" role="button" data-slide="next">
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
+    <span class="sr-only">Next</span> -->
   </a>
 </div>
         <!-- end carousel  -->
@@ -352,31 +336,27 @@ jQuery(function($) {
   </div>
 
   <!-- Controls -->
-  <a class="left carousel-control" href="#trips" role="button" data-slide="prev">
+  <!-- <a class="left carousel-control" href="#trips" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
   <a class="right carousel-control" href="#trips" role="button" data-slide="next">
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
+    <span class="sr-only">Next</span> -->
   </a>
 </div>
       <!-- end carosel -->
     </div> <!-- end col -->
    </div> <!-- end row -->
 
-   <div class="transitionbutton"><a href="#ourActivities"><h1><i class="fa fa-long-arrow-down fa-2"></i></h1></a></div>
+   <!-- <div class="transitionbutton"><a href="#ourActivities"><h1><i class="fa fa-long-arrow-down fa-2"></i></h1></a></div> -->
 </div>
 <!-- end our Trips -->
-<div class="secondbgthing"></div>
+
 <!-- begin our Activities -->
 <div id="ourActivities" class="temp">
    <h1>What are some of our other projects?</h1>
-   <div class="col-sm-6">
-    <div id="boxtop"><img class="img-responsive" src="images/box-tops-logo.gif"></img></div>
-    <button type="button" onclick="boxTops()" class="btn btn-default">Box Top Project</button>
-   </div>
-   <div class="col-sm-6">
+   <div class="col-md-7 col-md-push-5 ">
     <ul class="testing" id="trashCan">
     
      <li><img class="img-responsive" src="images/trash_1st.png" /></li>
@@ -386,39 +366,95 @@ jQuery(function($) {
     <li><img class="img-responsive" src="images/trash_end.png" /></li>
     
 </ul>
-<button type="button" onclick="throwTrash()" class="btn btn-default">WILD Clean Up</button>
+</div>
+<div class="col-md-5 col-md-pull-7 messedup">
+
+<!-- Wild Clean Up -->
+<article>
+    
+
+    <input type="checkbox" id="read_more_WILD" role="button">
+    <label for="read_more_WILD" onclick=""><span>WILD Clean Up - Read More</span><span>Hide This</span></label>     
+      
+    <figure>
+        <img src="images/wild_Clean_Up.jpg" alt="Trash Clean Up Image" />
+    </figure>
+
+    <section>
+    <p>WILD is a large scale concert put on by SPB. In order to make sure we remain respectful to our WashU neighbors we organize a group of students who are willing to get up early despite a late night of partying at WILD and clean up trash in the neerby neighborhoods that students may have left behind. </p>
+    </section>    
+
+
+
+<section>
+    <p> We feel that it is important to show respect to our neighbors, and that our efforts are necessary in order to improve the reputation of WILD and our WashU students. If we allow a poor reputation to circulate about our WashU students actions around WILD, we won't be able to enjoy the priveledge of having WILD once every semester. This shows our commitment to helping sustain a fun event thousands of students enjoy</p>
+    <p>To learn more about SPB and WILD visit <a href="http://spb.wustl.edu/">SPB's Website.</a></p>
+
+</section>
+
+</article>​
+
+<!-- end Wild Clean Up code --> 
+<!-- BOX TOPS -->
+<article>
+    
+
+    <input type="checkbox" id="read_more_boxTops" role="button">
+    <label for="read_more_boxTops" onclick=""><span>Box Top Collection - Read More</span><span>Hide This</span></label>     
+      
+    <figure>
+        <img class="img-responsive" src="images/box-tops-logo.gif" alt="I am a box top"></img>
+    </figure>
+
+    <section>
+    <p>Engage 360 founded and runs the Box Tops for Education collection on Washington University’s campus and donates all box tops to Ford Elementary School in Northwest St. Louis. </p>
+    </section>    
+
+
+
+<section>
+    <p> Each box top collected on campus will add 10 cents to a donation fund to benefit <a href="http://www.slps.org/site/default.aspx?domainid=609" alt="Ford Elementary School">Ford Elementary School.</a></p>
+    <p>Box Top collection envelopes are located in the trash rooms of every residence hall on the South 40, Village House, Lopata House, all fraternity houses, the Student Union office, and Quadrangle Housing Office on North Campus.</p>
+    <p><a href="http://www.studlife.com/news/campus-events/2011/10/10/students-collect-box-tops-for-local-schools/" alt="link to StudLife Article">Check out this StudLife Article on our program!</a></p>
+
+</section>
+
+</article>​
+
+<!-- end Box TOPs code --> 
+
+
+
+
+<!-- <p id="cleanUp">...</p>
+<button type="button" onclick="throwTrash()" class="btn btn-default">WILD Clean Up</button> -->
+</div>
+   <!-- <div class="col-sm-12">
+    <img class="img-responsive" src="images/box-tops-logo.gif"></img>
+    <div id="boxtop"></div>
+    <button type="button" onclick="boxTops()" class="btn btn-default">Box Top Project</button>
+   </div> -->
+   
+<!-- <div class="quickfix row col-xs-12">For more pictures from our events find us on <a href="https://www.facebook.com/wustlengage?ref=br_rs">Facebook!</a></div> -->
+
 </div>
 
-<!-- <div class="testing">
-    <a href="#" class="targ" style="color: #D00">link</a>
-    <a href="#" class="targ" style="color: #0D0">link</a>
-    <a href="#" class="targ" style="color: #00D">link</a>
-    <a href="#" class="targ" style="color: #0DD">link</a>
-    <a href="#" class="targ" style="color: #DD0">link</a>
-</div> -->
-   <div class="transitionbutton"><a href="#getInvolved"><h1><i class="fa fa-long-arrow-down fa-2"></i></h1></a></div>
-</div>
 <!-- end our Activities -->
-
-
-
-<div class="secondbg"></div>
-
-
 
 
 <!-- begin get Involved -->
 <div id="getInvolved" class="temp">
    <h1>Get involved!</h1>
-   <div class="row"><div class="col-md-6">
+   <div class="row">
+    <div class="calendar">
+  <h3>Our Events Calendar</h3>
+  <iframe src="https://www.google.com/calendar/embed?src=engage360%40su.wustl.edu&ctz=America/Chicago" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+</div>
+    <div class="myform">
    <div id="wufoo-q1raiuj517wqqd7">
 Fill out my <a href="https://lroettges.wufoo.com/forms/q1raiuj517wqqd7">online form</a>.
 </div>
 <div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">Use <a href="http://www.wufoo.com/gallery/templates/">Wufoo templates</a> to make your own HTML forms.</div>
-</div>
-<div class="col-md-6">
-  <h3>Our Events Calendar</h3>
-  <iframe src="https://www.google.com/calendar/embed?src=engage360%40su.wustl.edu&ctz=America/Chicago" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 </div>
 </div>
    <div class="transitionbutton"><a href="#meetTheTeam"><h1><i class="fa fa-long-arrow-down fa-2"></i></h1></a></div>
