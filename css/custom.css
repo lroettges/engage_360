@@ -447,9 +447,8 @@ input[type=checkbox] {
     width: 100%;
     text-align: center;
     padding: .65rem;
-    
     color: #fff;
-     border-style: dashed;
+     border-style: solid;
     border-color: #fff;
 }
 [for="read_more_boxTops"] {
@@ -460,19 +459,21 @@ input[type=checkbox] {
     text-align: center;
     padding: .65rem;
     color: #fff;
-    border-style: dashed;
+    border-style: solid;
     border-color: #fff;
 }
 
 [for="read_more_WILD"]:hover {
     /*background: rgba(0,0,0,.5);*/
     color: #68ffff;
-    font-size: 120%;
+    font-size: 110%;
+     border-style: dashed;
 }
 [for="read_more_boxTops"]:hover {
     /*background: rgba(0,0,0,.5);*/
     color: #68ffff;
-    font-size: 120%;
+    font-size: 110%;
+     border-style: dashed;
 }
 
 [for="read_more_WILD"] span:last-of-type {
